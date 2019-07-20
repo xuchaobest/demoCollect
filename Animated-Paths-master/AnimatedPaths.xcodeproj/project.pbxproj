@@ -207,6 +207,7 @@
 				INFOPLIST_FILE = "AnimatedPaths-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = AnimatedPaths;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -220,6 +221,7 @@
 				INFOPLIST_FILE = "AnimatedPaths-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = AnimatedPaths;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
