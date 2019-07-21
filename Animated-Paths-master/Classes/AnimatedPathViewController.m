@@ -134,7 +134,7 @@
     
     CAShapeLayer *pathLayer = [CAShapeLayer layer];
     pathLayer.frame = self.animationLayer.bounds;
-	pathLayer.bounds = CGPathGetBoundingBox(path.CGPath);
+	 pathLayer.bounds = CGPathGetBoundingBox(path.CGPath);
     //pathLayer.backgroundColor = [[UIColor yellowColor] CGColor];
     pathLayer.geometryFlipped = YES;
     pathLayer.path = path.CGPath;
@@ -167,7 +167,7 @@
     self.penLayer.hidden = NO;
 
     CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-    pathAnimation.duration = 10.0;
+    pathAnimation.duration = 50.0;
     pathAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
     pathAnimation.toValue = [NSNumber numberWithFloat:1.0f];
     [self.pathLayer addAnimation:pathAnimation forKey:@"strokeEnd"];
